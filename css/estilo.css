@@ -1,0 +1,191 @@
+/********** Configurações gerais **********/
+body{
+    font-family: sans-serif;
+    color: #3c184e;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.peso-font-700{
+    font-weight: 700;
+} 
+
+.font-italico{
+    font-style: italic;
+}
+
+.subtitulo-especial{
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+/********** Seção 1 **********/
+
+#secao-topo{
+    background-image: url(../img/banner-topo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+
+#secao-topo #marca-loja{
+    max-width: 250px;
+    padding: 80px 40px 0 40px;
+}
+
+#secao-topo #marca-loja #img-pata{
+    width: 30px;
+    margin: 0 5px 0 0; 
+}
+
+#secao-topo #marca-loja #nome-loja{
+    display: inline;
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+#secao-topo #marca-loja #slogan-loja{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+}
+
+#secao-topo #banner-loja{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+#secao-topo #banner-loja h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 40px 0;
+}
+
+#secao-topo #banner-loja a{
+    display: block;
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto;
+    background-color: #3c184e;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #ffff;
+    text-decoration: none;
+}
+
+#secao-topo #banner-loja a img{
+    width: 20px;
+    margin-left: 5px;
+}
+
+/********** Seção 2 **********/
+
+#secao-servicos{
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+#secao-servicos #container-lista-servicos{
+    max-width: 800px;
+    margin: 0 auto 50px auto;   
+}
+
+#secao-servicos #container-lista-servicos ul li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+#secao-servicos #container-imgs-servicos{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#secao-servicos #container-imgs-servicos img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+/********** Seção 3 e 5 - Faixas **********/
+.secao-faixa{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+.secao-faixa p{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+
+.secao-faixa .container-imgs-faixa{
+    text-align: center;
+}
+
+.secao-faixa .container-imgs-faixa a img{
+    width: 50px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+/********** Seção 4 **********/
+
+#secao-marcas{
+    width: 100%;
+    padding: 120px 80px;
+    box-sizing: border-box;
+}
+
+#secao-marcas .container-marcas{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#secao-marcas .container-marcas img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/********** Seção 6 **********/
+
+#secao-localizacao{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/********** Rodapé **********/
+
+#rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+    text-align: center;
+}
+
+#rodape p{
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+
+#rodape a img{
+    width: 16px;
+    margin-left: 5px;
+}
